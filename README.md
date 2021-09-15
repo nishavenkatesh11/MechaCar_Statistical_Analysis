@@ -15,7 +15,7 @@ The analysis will be performed using R Script through the following steps:
 
 ## Linear Regression to Predict MP
 
-![]()
+![](https://github.com/nishavenkatesh11/MechaCar_Statistical_Analysis/blob/main/screenshots/1_linear_regression_results.png)
 
 The variables/coefficients that provide a non-random amount of variance to the mpg values in the dataset are ground clearance and vehicle length as identified by the "***" in the screenshot. The *** indicates a highly significant variable, which is due to the extremely low p-value.
 
@@ -25,24 +25,25 @@ This linear model does predict mpg of MechaCar prototypes effectively because it
 
 ## Summary Statistics on Suspension Coils
 
-![]()
-![]()
+![](https://github.com/nishavenkatesh11/MechaCar_Statistical_Analysis/blob/main/screenshots/2-1_Total_summary.png)
+
+![](https://github.com/nishavenkatesh11/MechaCar_Statistical_Analysis/blob/main/screenshots/2-1_Lot_summary.png)
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. The current manufacturing data does meet this design specification for all manufacturing lots in total because the total variance is below 100 PSI, and does meet this design specification for each lot individually because while lots 1 and 2 are below the variance threshold of 100 PSI, lot 3 is 70% above the design specification at over 170 PSI.
 
 ## T-Tests on Suspension Coils
 This component of the analysis examines whether the aggregated and individual manufacturing lots do not have PSI mean values that are statistically different from the population mean of 1500 PSI. (Null Hypothesis)
 
-![]()
+![](https://github.com/nishavenkatesh11/MechaCar_Statistical_Analysis/blob/main/screenshots/3.1_t_test_overall.png)
 The t-test for aggregated manufacturing lots and PSI shows the confidence interval for the mean as between 1497.507 and 1500, and a true mean of 1498.78. With a p-value of 0.06028, we can't reject the null hypothesis. Therefore, the mean is not statistically different from the population mean.
 
-![]()
+![](https://github.com/nishavenkatesh11/MechaCar_Statistical_Analysis/blob/main/screenshots/3.2_t_test_subset_lot1.png)
 The t-test for  manufacturing lot 1 and PSI shows the confidence interval for the mean as between 1499.719 and 1500.281, and a true mean of 1500. With a p-value of 1, we can't reject the null hypothesis. Therefore, the mean is not statistically different from the population mean.
 
-![]()
+![](https://github.com/nishavenkatesh11/MechaCar_Statistical_Analysis/blob/main/screenshots/3.2_t_test_subset_lot2.png)
 The t-test for manufacturing lot 2 and PSI shows the confidence interval for the mean as between 1499.423 and 1500.977, and a true mean of 1500.2. With a p-value of 0.6027, we can't reject the null hypothesis. Therefore, the mean is not statistically different from the population mean.
 
-![]()
+![](https://github.com/nishavenkatesh11/MechaCar_Statistical_Analysis/blob/main/screenshots/3.2_t_test_subset_lot3.png)
 The t-test for manufacturing lot 3 and PSI shows the confidence interval for the mean as between 1492.431 and 1499.849, and a true mean of 1496.14.Therefore, the mean is statistically different from the population mean of 1500. With a p-value of 0.04168, we can reject the null hypothesis. Therefore, the mean is statistically different from the population mean.
 
 
