@@ -50,7 +50,7 @@ The t-test for manufacturing lot 3 and PSI shows the confidence interval for the
 ## Study Design: MechaCar vs Competition
 Below is a short description of a statistical study that can quantify how the MechaCar performs against the competition. 
 
-###Metrics
+### Metrics
 This study proposes to test the cost of the vehicle and maintenance costs for the first 5 years of use. 
 
 Rationale: Due to the financial duress caused by the pandemic, and the rise of remote work, customers are scrutinizing spending. Therefore to be competitive in the automotive industry MechaCar has to be competitively priced not just in vehicle purchase costs, but also in ongoing costs like maintenance. 
